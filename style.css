@@ -71,7 +71,7 @@ h2 {
 .card {
   display: flex;
   align-items: center;
-  width: 450px;
+  width: 200px;
 }
 .card-text {
   margin-left: 16px;
