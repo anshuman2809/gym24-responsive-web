@@ -11,7 +11,8 @@ body {
   color: #fff;
 }
 
-.s1 {
+.s1,
+.s2 {
   height: 100vh;
   background-image: linear-gradient(to right, #000000 10%, #00000000 20%),
     url("homepage.svg");
@@ -54,9 +55,7 @@ nav li {
 }
 
 .s2 {
-  /* width: 100%; */
   height: 100vh;
-  padding: 0 50px;
 }
 h2 {
   margin-bottom: 120px;
@@ -67,73 +66,65 @@ h2 {
 .card {
   display: flex;
   align-items: center;
+  width: 400px;
 }
 .card-text {
   margin-left: 16px;
-  /* width: 24rem; */
 }
+
 .card-para {
   margin-top: 4px;
   font-size: 14px;
-  /* width: 24rem; */
 }
 .reason-cards {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 60px;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .card-row-1 {
   display: flex;
+  flex-direction: column;
   gap: 60px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .card-row-2 {
   display: flex;
+  flex-direction: column;
   gap: 60px;
-  justify-content: center;
   flex-wrap: wrap;
-}
-.section-3 {
-  height: 100vh;
-  background-color: wheat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row-reverse;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-.box-1 {
-  width: 20rem;
-  background-color: orange;
-  height: 30vh;
-}
-.box-2 {
-  width: 20rem;
-  background-color: pink;
-  height: 30vh;
-}
-.box-3 {
-  width: 20rem;
-  background-color: blue;
-  height: 30vh;
 }
 @media screen and (max-width: 768px) {
+  .s1,
+  .s2 {
+    background-position: center;
+    background-size: auto;
+  }
+  .s2 {
+    height: 80vh;
+  }
+
   .s1 div {
     padding: 40px;
     width: 100%;
     margin-top: 10rem;
   }
-  nav ul {
-    display: none;
+  nav li {
+    padding: 3px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   header {
     padding: 40px;
+    flex-direction: column;
+  }
+  li {
+    display: flex;
+  }
+  header img {
+    width: 60vw;
+    margin-bottom: 5%;
   }
 }
