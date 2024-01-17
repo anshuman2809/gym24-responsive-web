@@ -1,6 +1,85 @@
-@import url("https://fonts.cdnfonts.com/css/made-outer-sans-alt");
+@import url("https://fonts.googleapis.com/css2?family=MADE+Outer+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "MADE Outer Sans", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.s1 {
+  height: 100vh;
+  background-image: linear-gradient(to right, #000000 10%, #00000000 20%),
+    url("homepage.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 37.5vw 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 229px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  padding-left: 75px;
+}
+
+.s1 div {
+  padding: 229px;
+  font-size: 52px;
+  font-weight: 500;
+  width: 668px;
+  height: 143px;
+}
+
+.s1 button {
+  width: 177px;
+  height: 52px;
+  padding: 16px 51px 16px 50px;
+  margin-top: 60px;
+  border-radius: 30px;
+  background: #faff00;
+}
+
+.s2 {
+  width: 100%;
+  height: 100vh;
+}
+h2 {
+  padding-left: 229px;
+  margin-bottom: ;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.s2-p-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s2-c1-card1-div,
+.s2-c1-card2-div,
+.s2-c2-card1-div,
+.s2-c2-card2-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+}
+
+.s2 p {
+  margin-left: 9px;
 }
