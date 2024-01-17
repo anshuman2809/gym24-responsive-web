@@ -55,7 +55,7 @@ nav li {
 
 .s2 {
   height: 80%;
-  padding: 150px 0;
+  padding: 100px 0;
   background-image: linear-gradient(to right, #000000 10%, #0000009f 50%),
     url("background.svg");
   background-repeat: no-repeat;
