@@ -11,8 +11,7 @@ body {
   color: #fff;
 }
 
-.s1,
-.s2 {
+.s1 {
   height: 100vh;
   background-image: linear-gradient(to right, #000000 10%, #00000000 20%),
     url("homepage.svg");
@@ -55,7 +54,13 @@ nav li {
 }
 
 .s2 {
-  height: 100vh;
+  height: 80%;
+  padding: 150px 0;
+  background-image: linear-gradient(to right, #000000 10%, #0000009f 50%),
+    url("background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 h2 {
   margin-bottom: 120px;
@@ -66,7 +71,7 @@ h2 {
 .card {
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 450px;
 }
 .card-text {
   margin-left: 16px;
@@ -103,6 +108,7 @@ h2 {
   }
   .s2 {
     height: 80vh;
+    background-size: cover;
   }
 
   .s1 div {
